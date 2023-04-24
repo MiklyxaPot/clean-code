@@ -36,9 +36,11 @@ li>* {
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .main {
@@ -61,7 +63,6 @@ li>* {
   margin: 0;
   padding: 0px;
 }
-
 
 .btn  {
   background: none;
