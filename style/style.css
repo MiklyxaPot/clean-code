@@ -57,6 +57,7 @@ li>* {
 
 .todo__add{
   display: flex;
+  padding: 20px 0 0 0;
 }
 
 .todo__list {
@@ -137,6 +138,7 @@ li>* {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 .input-show {
@@ -163,6 +165,10 @@ li>* {
 /* Edit Task */
 .input__text  {
   display: none;
+}
+
+.input__text-add{
+  display: block;
 }
 
 .item-mode__input{
