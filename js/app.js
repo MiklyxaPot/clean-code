@@ -143,7 +143,7 @@ var taskIncomplete = function () {
   incompleteTaskHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskCompleted);
   const completedInput = listItem.querySelector(".todo__label");
-  completedInput.classList.remove("todo__label-completed");
+  completedInput.classList.remove("todo__label_completed");
 }
 
 
